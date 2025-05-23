@@ -1,0 +1,306 @@
+
+html
+{
+    width: 650px;  /* max: 800px */
+    height: 500px; /* max: 600px */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(227, 179, 57), rgb(211, 186, 123));
+    background-image: url("pawel-czerwinski-suLgJZ1edT4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ze {
+    color:#FAF9F6;
+    border-bottom: 2px solid #FAF9F6;
+}
+
+#header, #slogan {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: xx-large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    color: turquoise;
+}
+
+.copyright {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    color: turquoise;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#task-h1 {
+    color: #FAF9F6;
+    border-bottom: 3px solid #FAF9F6;
+    display: inline-block;
+    line-height: 1;
+}
+
+#task-h1:hover {
+    color: turquoise;
+    border-bottom: 3px solid turquoise;
+}
+
+#header {
+    margin-bottom: 0;
+}
+
+#slogan {
+    font-size: large;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+#header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subheading, #h2-finished {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: x-large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    color: turquoise;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#h2-finished {
+    font-weight: 300;
+}
+.subheading {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+#div-tasks, #buttons-div {
+    padding: 5px 10px;
+}
+#div-tasks {
+    width: 350px;
+}
+#buttons-div {
+    width: 250px;
+}
+
+.main-btn {
+    margin-left: 0;
+}
+
+#trier-div {
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: space-between;
+    /* justify-content: start; align-items: start; */ 
+    /* default */
+}
+
+#operational-div {
+    background: linear-gradient(rgb(0, 0, 98), rgb(0, 0, 150));
+    padding: 2px 6px;
+    border-radius: 6%;
+    height: 150px;
+    width: 238px; 
+    /*to have same width as #trier-div, i.e. 250px. 
+    note that 238+6+6 = 250 because of padding.*/
+}
+
+#container-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#containing-div {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#add-guideline {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.task, .initial-task {    
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    color: #FAF9F6; /* off white */
+}
+
+.initial-task {
+    color: #FAF9F6;
+    opacity: 0.8;
+}
+
+#ul-el {
+    list-style: decimal;
+    background: linear-gradient(rgb(0, 0, 98), rgb(0, 0, 150));
+    min-height: 186px;
+    margin-top: 0;
+    padding-top: 4px;
+    border-radius: 6%;
+}
+
+.emojis {
+    font-style: normal;
+}
+
+#hero {
+    display: flex;
+    margin-top: 24px;
+}
+
+#options {
+    /* list-style:decimal; */
+    color: white;
+    margin-top: 10px;
+}
+
+.options-btn {
+    margin-left: 6px;
+    font-size: medium;
+    padding: 0px 4px;
+}
+
+.main-btn, #remove-task-submit-btn, #add-task-submit-btn, #remove-all-btn, #reorder-up-btn, #reorder-down-btn, #finish-btn {
+    background: rgb(0, 66, 66);
+    color: turquoise;
+    border: 1px solid turquoise;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    width: 80px;
+}
+
+#remove-all-btn {width: 100px;}
+
+#reorder-up-btn {width:50px;}
+
+#remove-guideline, #add-guideline, #wrong-done-guideline, #no-tasks-guideline, #empty-guideline {
+    color: turquoise;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+button.main-btn:hover, #remove-task-submit-btn:hover, #add-task-submit-btn:hover, #remove-all-btn:hover, #reorder-up-btn:hover, #reorder-down-btn:hover, #finish-btn:hover {
+    border: 1px solid wheat;
+    color: #FAF9F6;
+}
+
+button.main-btn {
+    margin-bottom: 8px;
+}
+
+#reorder-up-btn, #reorder-down-btn { /* #remove-task-submit-btn, #remove-all-btn, */
+    margin-left: 10px;
+}
+
+#finish-btn {
+    width: 190px;
+    color: #FAF9F6;
+}
+
+.special {
+    color: #FAF9F6;
+}
+
+.special:hover{
+    color: turquoise;
+}
+
+u {
+    text-underline-offset: 4px;
+    /* text-decoration-color: #FAF9F6; */
+}
+
+#remove-task-input, #add-task-input, #reorder-input {
+    background: rgb(0, 66, 66);
+    color: turquoise;
+    border: 1px solid turquoise;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+#remove-task-input, #reorder-input {
+    text-align: center;
+}
+
+#add-task-input:hover {
+    border: 1px solid wheat;
+}
+
+#remove-task-input:hover, #reorder-input:hover {
+    border: 1px solid wheat;
+    color: #FAF9F6;
+}
+
+::placeholder {
+    color: gray;
+}
+
+#done-guideline {
+    color: #FAF9F6;
+}
+
+#big-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2px;
+}
+
+#div2 {
+    margin-top: 8px;
+}
+
+h2 {
+    margin-block-start: 0;
+}

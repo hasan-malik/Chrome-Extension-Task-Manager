@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Task Manager</title>
+        <link rel="stylesheet" href="app.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="header-div">
+            <h1 id="header" class="funnel-sans"><span id="task-h1">task</span> manager</h1>
+             <!-- <h1 id="header">Prioriti<span id="ze">ze</span></h1> -->
+            <h2 id="slogan">redefine productivity.</h2>
+        </div>
+
+        <div id="hero">
+            <div id="div-tasks">
+                <h2 class="subheading">current <span class="special"><u>tasks</u></span></h2>
+                <ul id="ul-el"></ul>
+            </div>
+
+            <div id="buttons-div">
+                <h2 class="subheading">options</h2>
+                <div id="trier-div" class="only-for-hovering">
+                    <button id="add-task-btn" class="main-btn">add</button>
+                    <button id="remove-task-btn" class="main-btn">remove</button>
+                    <button id="reorder-btn" class="main-btn">reorder</button>
+                </div>
+                <div id="operational-div">
+                    <p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+                    <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

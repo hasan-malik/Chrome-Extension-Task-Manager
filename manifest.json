@@ -1,0 +1,10 @@
+
+{
+    "manifest_version": 3,
+    "version": "2025.1",
+    "description": "An app to bolster productivity. Manage your tasks.",
+    "name": "Task Manager",
+    "action": {"default_popup": "app.html",
+                "default_icon": "task_manager_logo_by_chatgpt.png"}
+
+}
