@@ -139,7 +139,8 @@ removeTaskBtn.addEventListener("click", function () {
         OperationalDiv.append(Guideline);
 
         setTimeout(function () {
-            Guideline.innerHTML = "";
+            Guideline.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+            <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
         }, 4000);
     });
 });
@@ -196,7 +197,8 @@ addTaskBtn.addEventListener("click", function () {
         }
 
         setTimeout(function () {
-            Guideline.innerHTML = "";
+            Guideline.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+            <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
         }, 4000);
     });
 });
@@ -338,7 +340,8 @@ reorderBtn.addEventListener("click", function () {
         OperationalDiv.append(Guideline);
 
         setTimeout(function () {
-            OperationalDiv.innerHTML = "";
+            OperationalDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+            <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
         }, 4000);
     });
 });
