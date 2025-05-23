@@ -280,7 +280,7 @@ reorderBtn.addEventListener("click", function () {
             OperationalDiv.append(Guideline);
 
             setTimeout(function () {
-                bigDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+                OperationalDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
             <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
             }, 4000);
             return;
@@ -293,7 +293,7 @@ reorderBtn.addEventListener("click", function () {
             OperationalDiv.append(Guideline);
 
             setTimeout(function () {
-                bigDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+                OperationalDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
             <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
             }, 4000);
             return;
@@ -315,7 +315,8 @@ reorderBtn.addEventListener("click", function () {
             OperationalDiv.append(Guideline);
 
             setTimeout(function () {
-                bigDiv.innerHTML = "";
+                OperationalDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+            <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
             }, 4000);
             return;
         }
@@ -327,7 +328,7 @@ reorderBtn.addEventListener("click", function () {
             OperationalDiv.append(Guideline);
 
             setTimeout(function () {
-                bigDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
+                OperationalDiv.innerHTML = `<p class="copyright">Welcome to <span class="special"><u>task</u></span> manager. Add a <span class="special"><u>task</u></span> using the options above!</p>
             <p class="copyright"><span class="special">©</span> Hasan Malik, <span class="special">2025</span></p>`;
             }, 4000);
             return;
