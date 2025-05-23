@@ -1,6 +1,6 @@
 const ulEl = document.querySelector("#ul-el");
 const initialTasks = [
-    "Email Prof. Riley",
+    "Email Prof. Johnson",
     "Cancel tennis.tv subscription",
     "Top up my Scotiabank bill",
     "Order a new phone case",
